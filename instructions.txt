@@ -1,0 +1,7 @@
+Instructions to replicate the SVM Experiments in the paper
+1. Run 'SVM_HPO.py' Generate the hyper-parameter optimization of 'SGD' and 'MMO' on train-validation set on 'wisconsin'
+   and 'imageseg' data sets
+2. Run 'svm_analysis_ImageSeg.py' to run the train-test experiment and  plot training loss for 'SGD' and 'MMO' on 'imageseg'
+   dataset
+3. Run 'svm_analysis_Wisconsin.py' to run the train-test experiment and  plot training loss for 'SGD' and 'MMO' on 'Wisconsin'
+   dataset
